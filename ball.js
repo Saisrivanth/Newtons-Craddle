@@ -4,7 +4,7 @@ class Ball
     {
         var options = {
             "restitution":0.4,
-            "friction":1,
+            "friction":4,
             'density':5,
             
         }
