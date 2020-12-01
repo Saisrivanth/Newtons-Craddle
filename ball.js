@@ -5,7 +5,7 @@ class Ball
         var options = {
             "restitution":0.4,
             "friction":4,
-            'density':5,
+            'density':20,
             
         }
        this.body = Bodies.circle(x,y,radius/2,options);
