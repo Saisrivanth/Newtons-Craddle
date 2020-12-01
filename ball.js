@@ -3,8 +3,8 @@ class Ball
     constructor(x,y,radius)
     {
         var options = {
-            "restitution":1,
-            "friction":100,
+            "restitution":0.4,
+            "friction":1,
             'density':10,
             
         }
