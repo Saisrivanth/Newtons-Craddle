@@ -15,7 +15,7 @@ class Ball
 
     display()
    {    var pos = this.body.position;
-        fill("red");
+        fill("skyblue");
         ellipse(pos.x,pos.y,this.radius,this.radius)
 
 }
