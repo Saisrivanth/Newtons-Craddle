@@ -58,7 +58,7 @@ function setup() {
 
 function draw() {
   rectMode(CENTER);
-  background(180,100,100);
+  background("black");
   ball1.display();
   line1.display();
   ball2.display();
