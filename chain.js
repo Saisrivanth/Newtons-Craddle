@@ -23,7 +23,11 @@ var pointB=this.chain.bodyB.position;
 var Anchor1Y=pointA.y
  var Anchor2X=pointB.x+this.offsetX
 var Anchor2Y=pointB.y+this.offsetY
+push();
+    strokeWeight(4);
+    stroke("white")
  line(Anchor1X,Anchor1Y,Anchor2X,Anchor2Y);
+    pop();
 }
 
 }
