@@ -28,7 +28,7 @@ function setup() {
 
 	//Create the Bodies Here.
    wall = new Ground(350,50,300,20);
-   ball1 = new Ball(320,100,40);
+   ball1 = new Ball(220,100,40);
    line1 = new Chain(ball1.body,wall.body,-140,10);
 
    ball2 = new Ball(370,100,40);
